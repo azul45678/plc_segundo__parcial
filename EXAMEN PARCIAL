@@ -1,0 +1,57 @@
+#EXAMEN PARCIAL 
+
+#Datos del paciente 
+temperatura =float(input("Dame tu temperatura: "))
+if temperatura <=  36.5: 
+  print("No tienes fiebre")
+elif 36.5 >temperatura< 38:
+  print("Fiebre baja")
+elif temperatura >= 38: 
+  print("Fiebre alta")
+
+#Enfermedad crónica 
+enfermedad= float(input("Cuántos días has estado enfermo: "))
+if enfermedad > 7:
+  print("Enfermedad crónica")
+
+sintomas = float(print("Presentas algún sintoma asociado como tos crónica, fatiga extrema, pérdida de peso: "))
+if sintomas== si:
+  print("Enfermedad crónica")
+
+if sintomas== no:
+  print("Si no has estado enfermo más de 7 días, no tienes enfermedad crónica")
+
+#Infección respiratoria
+if 36 >temperatura<  36.6:
+  print("Tienes tos?: ")
+  if tos==si:
+  print("Infección respiratoria leve")
+  if tos==no
+    print("No te preocupes")
+
+if temperatura > 36.6 and < 38
+  print("Tienes tos o dolor de garganta?: ")
+  if si== print("Infección respiratoria media")
+
+if temperatura > 38
+  print("Tienes dificultad para respirar?: ")
+  if si== print("Infección respiratoria grave")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
